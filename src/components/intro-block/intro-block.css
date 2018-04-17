@@ -1,0 +1,22 @@
+div {
+	background-color: #10141C;
+	width: 315px;
+	height: 190px;
+	display: inline-block;
+	padding: 1.8em 0 2em 4em;
+}
+
+p {
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+#p2 {
+	font-weight: normal;
+
+	color: #939798;
+	line-height: 2em;
+	font-size: 13px;
+}

@@ -25,29 +25,164 @@ declare global {
 
 
 declare global {
-  interface HTMLMyComponentElement extends HTMLStencilElement {
-    'first': string;
-    'last': string;
+  interface HTMLFirstMainElement extends HTMLStencilElement {
+
   }
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  var HTMLFirstMainElement: {
+    prototype: HTMLFirstMainElement;
+    new (): HTMLFirstMainElement;
   };
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'first-main': HTMLFirstMainElement;
   }
   interface ElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'first-main': HTMLFirstMainElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      'my-component': JSXElements.MyComponentAttributes;
+      'first-main': JSXElements.FirstMainAttributes;
     }
   }
   namespace JSXElements {
-    export interface MyComponentAttributes extends HTMLAttributes {
-      'first'?: string;
-      'last'?: string;
+    export interface FirstMainAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLIntroBlockElement extends HTMLStencilElement {
+    'text': string;
+    'title': string;
+  }
+  var HTMLIntroBlockElement: {
+    prototype: HTMLIntroBlockElement;
+    new (): HTMLIntroBlockElement;
+  };
+  interface HTMLElementTagNameMap {
+    'intro-block': HTMLIntroBlockElement;
+  }
+  interface ElementTagNameMap {
+    'intro-block': HTMLIntroBlockElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'intro-block': JSXElements.IntroBlockAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface IntroBlockAttributes extends HTMLAttributes {
+      'text'?: string;
+      'title'?: string;
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLMockInputElement extends HTMLStencilElement {
+
+  }
+  var HTMLMockInputElement: {
+    prototype: HTMLMockInputElement;
+    new (): HTMLMockInputElement;
+  };
+  interface HTMLElementTagNameMap {
+    'mock-input': HTMLMockInputElement;
+  }
+  interface ElementTagNameMap {
+    'mock-input': HTMLMockInputElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'mock-input': JSXElements.MockInputAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface MockInputAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLSecondMainElement extends HTMLStencilElement {
+
+  }
+  var HTMLSecondMainElement: {
+    prototype: HTMLSecondMainElement;
+    new (): HTMLSecondMainElement;
+  };
+  interface HTMLElementTagNameMap {
+    'second-main': HTMLSecondMainElement;
+  }
+  interface ElementTagNameMap {
+    'second-main': HTMLSecondMainElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'second-main': JSXElements.SecondMainAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface SecondMainAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLSiteFooterElement extends HTMLStencilElement {
+
+  }
+  var HTMLSiteFooterElement: {
+    prototype: HTMLSiteFooterElement;
+    new (): HTMLSiteFooterElement;
+  };
+  interface HTMLElementTagNameMap {
+    'site-footer': HTMLSiteFooterElement;
+  }
+  interface ElementTagNameMap {
+    'site-footer': HTMLSiteFooterElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'site-footer': JSXElements.SiteFooterAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface SiteFooterAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+  interface HTMLSiteHeaderElement extends HTMLStencilElement {
+
+  }
+  var HTMLSiteHeaderElement: {
+    prototype: HTMLSiteHeaderElement;
+    new (): HTMLSiteHeaderElement;
+  };
+  interface HTMLElementTagNameMap {
+    'site-header': HTMLSiteHeaderElement;
+  }
+  interface ElementTagNameMap {
+    'site-header': HTMLSiteHeaderElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'site-header': JSXElements.SiteHeaderAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface SiteHeaderAttributes extends HTMLAttributes {
+
     }
   }
 }

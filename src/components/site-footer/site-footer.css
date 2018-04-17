@@ -1,0 +1,26 @@
+div {
+	background-color: #151A23;
+	height: 8em;
+
+	display: flex;
+	align-items: center;
+}
+
+p {
+	font-size: 10px;
+	color: #9494A6;
+}
+
+.img1 {
+	display: block;
+
+}
+
+span {
+	padding-left: 10%; 
+}
+
+.img2 {
+	padding-left: 50%;
+}
+
